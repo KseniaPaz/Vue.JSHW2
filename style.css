@@ -556,19 +556,11 @@ body{
     gap: 27px;
 }
  
-
-
-
-
-
-
-
-
-
 .pagination {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 51px;
     margin-bottom: 200px;
 }
 
