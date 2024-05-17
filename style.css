@@ -417,6 +417,7 @@ body{
 .banner {
     position: relative;
     height: 356px;
+    margin-bottom: 200px;
 }
 
 .banner_box-for-text {
@@ -457,6 +458,108 @@ body{
     color: #4D5053;
 }
 
+.latest-news {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    margin-bottom: 150px;
+}
+
+.latest-news_title {
+    font-family: DM Serif Display;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62.5px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #292F36;
+}
+
+.latest-news_box {
+    display: flex;
+    gap: 65px;
+    align-items: center;
+}
+
+.latest-news_box-for-text {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 469px;
+}
+
+.latest-news_box-for-text_title {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #292F36;
+}
+
+.latest-news_box-for-text_text {
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #4D5053;
+}
+
+.latest-news_date-button {
+    width: 469px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.latest-news_date-button_date {
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #4D5053;
+}
+
+.latest-news_date-button_button {
+    width: 52px;
+    height: 52px;
+    border-radius: 90%;
+    background-color: #F4F0EC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.pagination_box {
+    display: flex;
+    gap: 20px;
+}
+
+.pagination_button {
+    width: 52px;
+    height: 52px;
+    border-radius: 90%;
+    border: 1px solid #CDA274;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination_button:hover {
+    border: 1px solid #F4F0EC;
+    background-color: #F4F0EC;
+}
 
 
 
